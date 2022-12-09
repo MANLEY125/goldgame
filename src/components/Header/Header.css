@@ -1,0 +1,80 @@
+.gold {
+  height: 100px;
+}
+
+@media (max-width: 786px) {
+  .gold {
+    height: 50px;
+  }
+}
+
+.gold__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gold__find {
+  color: gold;
+  padding-top: 30px;
+  font-size: 50px;
+  /* width: 300px; */
+}
+
+@media (max-width: 786px) {
+  .gold__find {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+}
+
+.gold__time {
+  display: flex;
+  padding-top: 30px;
+  font-size: 50px;
+  color: gold;
+}
+
+@media (max-width: 786px) {
+  .gold__time {
+    font-size: 35px;
+    padding-top: 10px;
+  }
+}
+
+.gold__score {
+  display: flex;
+  font-size: 50px;
+  color: gold;
+  padding-top: 30px;
+}
+
+@media (max-width: 786px) {
+  .gold__score {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+}
+
+.gold__buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.gold__btn {
+  padding-right: 1%;
+  margin-left: 5%;
+}
+
+.gold__button {
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+
+.gold__button2 {
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}

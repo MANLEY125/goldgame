@@ -1,0 +1,7 @@
+.goldgame {
+  background-image: url("./images/dirt.png");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  cursor: url("./images/detector.png"), auto;
+}
